@@ -1,5 +1,3 @@
-from urllib.parse import urlparse
-
 import praw
 import time
 
@@ -59,6 +57,6 @@ def main():
         for user in user_list:
             redditor = reddit.redditor(user)
             run_upvoter(redditor)
-        print('Waiting 60 seconds...\n')
+        print('\nWaiting 60 seconds...\n')
         time.sleep(60)
 main()
