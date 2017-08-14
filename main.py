@@ -1,7 +1,7 @@
 import praw
 import time
 
-# location of file where id's of already visited comments are maintained
+# location of files with submission and comment id's already voted on
 submissions_path = 'submissions.txt'
 comments_path = 'comments.txt'
 
